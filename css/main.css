@@ -1,6 +1,17 @@
 * {
   box-sizing: border-box;
+  margin: 0;
   /* border: solid 3px darkcyan; */
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  background-color: darkcyan;
+  color: white;
+  padding: 1rem 2rem;
 }
 
 img {
@@ -33,4 +44,42 @@ article {
 
   /* text-align: center;
   line-height: 200px; */
+}
+
+.hidden {
+  display: none;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+
+  background-color: #dddddd22;
+  backdrop-filter: blur(2px);
+}
+
+.modal {
+  position: fixed;
+  top: 10vh;
+  bottom: 10vh;
+  left: 25vw;
+  right: 25vw;
+  z-index: 11;
+
+  background-color: white;
+  border: solid 3px darkcyan;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
