@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  /* border: solid 3px darkcyan; */
+}
+
+img {
+  display: block;
+  margin-inline: auto;
+  width: 200px;
+}
+
+q {
+  display: block;
+  margin-block: 1em;
+  border-left: solid 5px gray;
+  font-style: italic;
+}
+
+em {
+  display: inline-block;
+  background-color: yellowgreen;
+  padding: 20px;
+}
+
+article {
+  background-color: lightblue;
+  width: 200px;
+  height:200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* text-align: center;
+  line-height: 200px; */
+}
